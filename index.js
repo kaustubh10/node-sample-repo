@@ -2,7 +2,11 @@
 var addTwoNumbers = function(a, b){
 	return a + b;
 };
-console.log(addTwoNumbers(1,2));
+
+vara subtractTwo = function(a, b){
+	return a - b;
+};
 module.exports = {
 	addTwoNumbers: addTwoNumbers,
+	subtractTwo: subtractTwo,
 };
